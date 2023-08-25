@@ -1,0 +1,51 @@
+.prox{
+    height: 651px;
+    background-image: url('../assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 70px;
+}
+
+.prox *{
+    animation: mostrar 1.3s ease-in;
+    
+}
+
+.prox h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 2px 2px 7px #1b1b1b;
+}
+
+.prox div img{
+    height: 250px;
+}
+
+.prox h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 7px #1b1b1b;
+}
+
+.prox p{
+    text-align: center;
+    background: #ff551d;
+    margin: 10px 510px;
+    padding: 7px 15px;
+    box-shadow: 3px 3px 5px #1b1b1b;
+    cursor: pointer;
+}
+
+.prox p .link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}

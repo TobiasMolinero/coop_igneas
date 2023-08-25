@@ -1,0 +1,13 @@
+.info{
+    background: #f5f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info h3{
+    text-align: center;
+    color: #000637;
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding: 100px 300px;
+    /* animation: animarTexto 1.4s ease-in; */
+}

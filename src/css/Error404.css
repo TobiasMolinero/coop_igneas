@@ -1,0 +1,46 @@
+.error404{
+    height: 651px;
+    background-image: url('../assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 100px;
+}
+
+.error404 *{
+    animation: mostrar 1.3s ease-in;
+}
+
+.error404 h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14rem;
+    text-align: center;
+    text-shadow: 2px 2px 7px #1b1b1b;
+}
+
+.error404 h2{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px 7px #1b1b1b;
+}
+
+.error404 p{
+    text-align: center;
+    background: #ff551d;
+    margin: 20px 510px;
+    padding: 7px 15px;
+    box-shadow: 3px 3px 5px #1b1b1b;
+    cursor: pointer;
+}
+
+.error404 p .link{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}

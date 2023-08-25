@@ -1,0 +1,21 @@
+.banner-inicio{
+    height: 655px;
+    background-image: url('../assets/fondo.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-inicio h2{
+    color: white;
+    width: 750px;
+    font-size: 4.5rem;
+    font-weight: 500;
+    padding: 30px 50px 50px 70px;
+    animation: mostrar 1.3s ease-in;
+}
+

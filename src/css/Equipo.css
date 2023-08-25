@@ -1,0 +1,59 @@
+.equipo{
+    background: #f5f2f2;
+    padding: 50px;
+}
+
+.equipo h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #000637;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.grid-equipo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background: #f5f2f2;
+    width: 300px;
+}
+
+.card .card-image{
+    /* background: red; */
+    height: 400px;
+    /* background-image: url('../assets/perfil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    overflow: hidden;
+}
+
+.card .card-image img{
+    width: 100%;
+}
+
+.card .card-info{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-info h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.card .card-info h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card .card-info p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: 10px;
+}

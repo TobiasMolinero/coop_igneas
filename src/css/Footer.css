@@ -1,0 +1,54 @@
+.footer{
+    background: #000647;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer_container-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+
+}
+
+.footer .footer_container-info p {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.footer .footer_container-info ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer .footer_container-info ul li{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.rutas ul li .link{
+    color: white;
+}
+
+.rutas ul li .link:hover{
+    color: #ff551d;
+}
+
+.footer .derechos{
+    background-color: #000329;
+    padding: 10px;
+}
+
+.footer .derechos p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #afafaf;
+}
+
+.footer .derechos p a{
+    color: #afafaf;
+    text-decoration: none;
+}
