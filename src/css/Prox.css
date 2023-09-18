@@ -12,7 +12,7 @@
 }
 
 .prox *{
-    animation: mostrar 1.3s ease-in;
+    animation: mostrar 1.2s ease-out;
     
 }
 
@@ -48,4 +48,69 @@
     color: white;
     text-decoration: none;
     font-size: 1.7rem;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    
+    .prox{
+        height: 500px;
+        padding-top: 40px;
+    }
+    
+    .prox h1{
+        font-size: 5rem;
+    }
+
+    .prox p{
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 321px){
+        
+    .prox{
+        height: 500px;
+        padding-top: 30px;
+    }
+    
+    .prox h1{
+        font-size: 4rem;
+    }
+
+    .prox div img{
+        height: 180px;
+    }
+
+    .prox p{
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 0){
+    .prox{
+        height: 500px;
+        padding-top: 70px;
+    }
+    
+    .prox h1{
+        font-size: 2.5rem;
+    }
+
+    .prox div img{
+        height: 140px;
+    }
+
+    .prox h2{
+        font-size: 2rem;
+    }
+
+    .prox p{
+        margin: 10px;
+    }
+
+    .prox p .link{
+        font-size: 1.4rem;
+    }
 }

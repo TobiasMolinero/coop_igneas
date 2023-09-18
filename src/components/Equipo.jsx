@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import '../css/Equipo.css'
 import fotoViki from '../assets/foto-viki.jpeg'
-import perfil from '../assets/perfil.jpg'
+import fotoMajo from '../assets/majo.jpeg'
+import fotoJesi from '../assets/jesi.jpeg'
 
 const Equipo = () => {
 
@@ -10,28 +11,28 @@ const Equipo = () => {
             id: 1,
             nombre: "Jessica Gomez Leccese",
             cargo: 'Presidenta de IGNEAS',
-            presentacion: 'Lic. en Artes Plásticas. Miembro fundador de Igneas',
-            imagen: perfil
+            presentacion: 'Lic. en Artes Plásticas. Especialista en esculturas. Diplomada en liderazgo politico. Miembro fundador de IGNEAS.',
+            imagen: fotoJesi
         },
         {
             id: 2,
             nombre: "Maria Victoria Herrero Jaime",
             cargo: 'Vicepresidenta de IGNEAS',
-            presentacion: 'Lic. en Artes Plásticas especializada en grabado y posgrado en Arte Digital. Miembro fundador de Igneas.',
+            presentacion: 'Lic. en Artes Plásticas especializada en grabado y posgrado en Arte Digital. Miembro fundador de IGNEAS.',
             imagen: fotoViki
         },
         {
             id: 3,
             nombre: "Maria Jose Mazzocato",
-            cargo: 'Secretaria Gral.',
-            presentacion: '',
-            imagen: perfil
+            cargo: 'Secretaria General',
+            presentacion: 'Lic. en Relaciones Internacionales. Especialista en terrorismo, defensa y estrategia militar. Docente Academica. Miembro fundador de IGNEAS.',
+            imagen: fotoMajo
         }
     ]
 
   return (
     <section className='equipo'>
-        <h2>Conoce a nuestro equipo</h2>
+        <h2>Conoce nuestro equipo</h2>
         <div className='grid-equipo'>
             {
                 equipo.map(miembro => 

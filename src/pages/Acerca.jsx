@@ -4,11 +4,14 @@ import Equipo from '../components/Equipo'
 import Footer from '../components/Footer'
 
 const Acerca = () => {
+
+  // window.scrollTo(0, 0)
+
   return (
     <>
       <Header/>
       <section className='banner-acerca'>
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloremque error,</h2>
+        <h2>Creando poderes transformadores del Arte y la Cultura como herramientas para el crecimiento personal, social y artístico.</h2>
       </section>
       <Equipo/>
       <Footer/>

@@ -12,7 +12,7 @@
 }
 
 .error404 *{
-    animation: mostrar 1.3s ease-in;
+    animation: mostrar 1.2s ease-out;
 }
 
 .error404 h1{

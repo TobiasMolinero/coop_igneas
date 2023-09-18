@@ -4,18 +4,23 @@ import './App.css'
 import Inicio from './pages/Inicio'
 import Acerca from './pages/Acerca'
 import Error404 from './pages/Error404'
-import { HashRouter, Routes, Route } from 'react-router-dom' 
 import Prox from './pages/Prox'
+import { HashRouter, Routes, Route } from 'react-router-dom' 
+import ScrollToTop from './components/scroll/ScrollToTop'
 
 function App() {
 
-
   return (
-    <HashRouter>
+    <HashRouter basename='/' hashType="noslash">
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Inicio/>}></Route>
         <Route path='/acerca-de' element={<Acerca/>}></Route>
-        <Route path='/prox' element={<Prox/>}></Route>
+        <Route path='/proyectos' element={<Prox/>}></Route>
+        <Route path='/servicios' element={<Prox/>}></Route>
+        <Route path='/blog' element={<Prox/>}></Route>
+        <Route path='/contacto' element={<Prox/>}></Route>
+        <Route path='/tienda' element={<Prox/>}></Route>
         <Route path='*' element={<Error404/>}></Route>
       </Routes>
     </HashRouter>

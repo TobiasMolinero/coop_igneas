@@ -16,10 +16,10 @@ const Footer = () => {
                     <p>Nuestro trabajo</p>
                     <ul>
                         <li><Link className="link" to={'/acerca-de'}>Acerca de</Link></li>
-                        <li><Link className="link" to={'/prox'}>Proyectos</Link></li>
-                        <li><Link className="link" to={'/prox'}>Servicios</Link></li>
-                        <li><Link className="link" to={'/prox'}>Blog</Link></li>
-                        <li><Link className="link" to={'/prox'}>Contacto</Link></li>
+                        <li><Link className="link" to={'/proyectos'}>Proyectos</Link></li>
+                        <li><Link className="link" to={'/servicios'}>Servicios</Link></li>
+                        <li><Link className="link" to={'/blog'}>Blog</Link></li>
+                        <li><Link className="link" to={'/contacto'}>Contacto</Link></li>
                     </ul>
                 </div>
             </div>
