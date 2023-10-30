@@ -17,6 +17,7 @@
     font-weight: 500;
     padding: 30px 50px 50px 70px;
     animation: mostrar 1.3s ease-out;
+    text-shadow: 2px 2px 7px #1b1b1b;
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px){

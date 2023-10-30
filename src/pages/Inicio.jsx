@@ -3,7 +3,7 @@ import BannerInicio from "../components/BannerInicio"
 import Info from '../components/Info'
 import Footer from "../components/Footer"
 import Mision from "../components/Mision"
-
+import EntradasRec from "../components/EntradasRec"
 
 const Inicio = () => {
 
@@ -13,6 +13,7 @@ const Inicio = () => {
       <BannerInicio/>
       <Info/>
       <Mision/>
+      <EntradasRec/>
       <Footer/>
     </>
   )

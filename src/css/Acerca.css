@@ -17,6 +17,7 @@
     font-weight: 500;
     padding: 30px 50px 50px 70px;
     animation: mostrar 1.2s ease-out;
+    text-shadow: 2px 2px 7px #1b1b1b;
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px){
@@ -27,7 +28,7 @@
 
     .banner-acerca h2{
         font-size: 3rem;
-        padding: 15px 50px 35px 40px;    
+        padding: 15px 30px 35px 40px;    
     }
 }
 
@@ -40,7 +41,7 @@
 
     .banner-acerca h2{
         font-size: 3rem;
-        padding: 15px 30px 35px 60px;    
+        padding: 15px 20px 35px 25px;    
     }
 }
 

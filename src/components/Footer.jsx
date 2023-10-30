@@ -15,6 +15,7 @@ const Footer = () => {
                 <div className="rutas">
                     <p>Nuestro trabajo</p>
                     <ul>
+                        <li><Link className="link" to={'/'}>Inicio</Link></li>
                         <li><Link className="link" to={'/acerca-de'}>Acerca de</Link></li>
                         <li><Link className="link" to={'/proyectos'}>Proyectos</Link></li>
                         <li><Link className="link" to={'/servicios'}>Servicios</Link></li>
